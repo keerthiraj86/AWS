@@ -1,0 +1,58 @@
+Role based permission time : 15 Min to 12 Hrs or 36 Hrs
+We can attach max of 10 policies to a group
+1 EC2 instance can have max of 50 policies
+CloudWatch monitoring default is 5 min. If we enable detailed monitoring it is 1 min
+1 EBS can be 16TB in size
+AWS measures IOPS in 256KB
+
+SSD - maz ipos per volume - 32000
+EC2 Max throughput - 80000
+
+HDD - Max Throughput per HDD- 500mb/s
+EC2 Max - 1750mb/s
+
+
+DB
+===
+RDS we can take a max of 15 read replicas
+Automated RDS backup will be preserved for 35 days
+
+DynamoDb by default have 5/5 read/write per second
+Neptune DB storage is 64TB
+
+S3
+==
+One account can have 100 bucket (soft)
+
+Standard Storage - Not available for 4 min a month
+Infrequent access - Not available for 44 min a month
+one zone infrequent access - Not available 3.5 hrs per month
+
+SnowBall
+========
+We can have it in our place for 6 days to tranfer datas
+Each snowBall device is 80TB
+
+Snowball Edge - 100TB
+SnowMobile - 100PB
+
+
+
+SNS
+We can have 10 million subscribers to a topic (soft)
+
+SQS - FIFO queue supports 300 messages per second.
+If batched 10 messages (10 is max) per operation, it can supprot 3000 messages per second
+Queue can hold a msg upto 14 days
+ 
+
+SWF - Simple Work Flow can last for 1 yr
+
+
+Lambda
+======
+Lambda now can run functions for up to 15 minutes
+
+Kinesis
+=======
+Data will be there in kinesis for 24 hours and if needed we can extend it to max of 7 days
